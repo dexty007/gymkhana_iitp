@@ -796,8 +796,8 @@ body.mobile-nav-active #mobile-nav-toggle {
         padding: 60px 20px;
       }
   }
-
-/* Clubs Section
+/*--------------------------------
+ Hostel rules Section
 --------------------------------*/
 
 #clubs{
@@ -964,6 +964,45 @@ body.mobile-nav-active #mobile-nav-toggle {
 .composition__photo:hover .composition__photo:not(:hover) {
     transform: scale(0.95);
 }
+
+
+  /*------------------------------
+  Warden's message
+  ------------------------------*/
+  #wardenMessage {
+      padding: 60px 0;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 110%;
+    padding: 20px;
+    text-align: left;
+    height: 820px;
+  }
+  #wardenMessage .container {
+      height: 1200px;
+  }
+  @media(max-width: 1000px) {
+    .bg-text {
+        height: 1300px;
+        width: 95%;
+        top: 50%;
+        font-size: 17px;
+      }
+    #wardenMessage .container {
+        height: 1700px;
+    }
+  }
 
 /* Events Section */
 
@@ -1304,6 +1343,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
     background: #eee !important;
+    padding: 60px 0;
+
 }
 
 .btn-primary:hover,
@@ -1319,18 +1360,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #007b5e;
     border-color: #007b5e;
 }
-
-section {
-    padding: 60px 0;
-}
-
-section .section-title {
-    text-align: center;
-    color: #191b1b;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
 #team .card {
     border: none;
     background: #ffffff;
