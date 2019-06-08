@@ -797,7 +797,43 @@ body.mobile-nav-active #mobile-nav-toggle {
       }
   }
 
-/* Clubs Section
+  /*------------------------------
+  Warden's message
+  ------------------------------*/
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 110%;
+    padding: 20px;
+    text-align: left;
+    height: 820px;
+  }
+  #wardenMessage .container {
+      height: 1200px;
+  }
+  @media(max-width: 1000px) {
+    .bg-text {
+        height: 1300px;
+        width: 95%;
+        top: 50%;
+        font-size: 17px;
+      }
+    #wardenMessage .container {
+        height: 1700px;
+    }
+  }
+
+/*--------------------------------
+ Hostel rules Section
 --------------------------------*/
 
 #clubs{
