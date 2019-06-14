@@ -33,7 +33,7 @@ a:active,
 a:focus {
     color: #ff9306;
     outline: none;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 p {
