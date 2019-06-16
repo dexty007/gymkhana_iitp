@@ -1735,7 +1735,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }   
 }
 
-@media (max-width: 1272px) {
+@media (max-width: 1367px) {
     .back-to-top {
         bottom: 15px;
     }
